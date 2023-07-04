@@ -26,8 +26,6 @@ If you find our code or paper useful, please cite as (This paper will be updated
 
 ---
 ## Abstract
-<![endif]-->
-
 Transformer-based methods have led to the revolutionizing of multiple computer vision tasks. Inspired by this, we propose a transformer-based network with a channel-enhanced attention module to explore contextual and spatial information in non-contrast (NC) and contrast-enhanced (CE) computed tomography (CT) images for pulmonary vessel segmentation and artery-vein separation. Our proposed network employs a 3D contextual transformer module in the encoder and decoder part and a double-attention module in skip connection  to effectively produce high-quality vessel and artery-vein segmentation. Extensive experiments are conducted on the in-house dataset and the ISICDM2021 challenge dataset. The in-house dataset includes 56 NC CT scans with vessel annotations. The challenge dataset consists of 14 NC and 14 CE CT scans with vessel and artery-vein annotations. For vessel segmentation, Dice is 0.840 for CE CT and 0.867 for NC CT. For artery-vein separation, the proposed method achieves a Dice of 0.758 of CE images and 0.602 of NC images. Quantitative and qualitative results demonstrate that the proposed method achieved high accuracy for pulmonary vessel segmentation and artery-vein separation. This method provides useful support for further research associated with the vascular system in CT images.  
 
 <p align="center">

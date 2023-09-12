@@ -16,11 +16,13 @@
 If you find our code or paper useful, please cite as (This paper will be updated later)
 
 ```bibtex
-@article{wu2022two,
-  title={Two-stage Contextual Transformer-based Convolutional Neural Network for Airway Extraction from CT Images},
+@article{wu2023two,
+  title={Two-stage contextual transformer-based convolutional neural network for airway extraction from CT images},
   author={Wu, Yanan and Zhao, Shuiqing and Qi, Shouliang and Feng, Jie and Pang, Haowen and Chang, Runsheng and Bai, Long and Li, Mengqi and Xia, Shuyue and Qian, Wei and others},
-  journal={arXiv preprint arXiv:2212.07651},
-  year={2022}
+  journal={Artificial Intelligence in Medicine},
+  pages={102637},
+  year={2023},
+  publisher={Elsevier}
 }
 @article{wu2023transformer,
   title={Transformer-based 3D U-Net for pulmonary vessel segmentation and artery-vein separation from CT images},

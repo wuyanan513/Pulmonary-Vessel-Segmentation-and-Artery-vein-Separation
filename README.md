@@ -58,21 +58,13 @@ Transformer-based methods have led to the revolutionizing of multiple computer v
 
 ## Directory Setup
 <!---------------------------------------------------------------------------------------------------------------->
-In this project, we implement our method using the Pytorch library, the structure is as follows: 
+In this project, we implement our method using the Pytorch library. 
  
-- model_ds.py : 3D CoT module and double attention module.
-- main.py : training the model in the provided dataset
-- loss.py : the focal loss and dice loss are combined
-- utils.py
+To support researchers and practitioners, we are providing the **core model code** from our paper. However, please note that due to resource constraints and other considerations, this repository **only includes the model code** and does not include:
 
----
-## Dataset
-1. The in-house dataset was provided by the hospital. 
-2. The ISICDM dataset released in the ISICDM 2021 challenge and labeled by the challenge organizer.
-
----
-
-
+- Data preprocessing scripts  
+- Training datasets  
+- Other resources subject to copyright or privacy restrictions 
 
 ## References
 Code adopted and modified from:
